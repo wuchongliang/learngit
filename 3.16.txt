@@ -10,3 +10,5 @@
 2.回退到上一个版本可以使用  git reset --hard^
 3.重新回到当前版本 git reset --hard 版本号
 4.git reflog 用来记录你的每一次命令
+5.git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支
+如果修改后不执行git add操作，就执行git commit的话就不会将修改保存

@@ -5,3 +5,8 @@
 第二步：使用命令git commit，完成
 2.随时掌握工作区的状态，使用git status命令
 如果git status告诉你有文件被修改，用git diff可以查看修改的内容
+2018.3.20号学习git
+1.git log 可以查看提交历史，git log --pretty=oneline可以简化输出信息
+2.回退到上一个版本可以使用  git reset --hard^
+3.重新回到当前版本 git reset --hard 版本号
+4.git reflog 用来记录你的每一次命令
